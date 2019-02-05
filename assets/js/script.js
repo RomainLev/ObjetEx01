@@ -1,11 +1,9 @@
-var objet1 = new Object;
-objet1.couleur = "rouge";
-objet1.taille = 100;
-objet1.afficherCouleur = function() {
-  alert(objet1.couleur);
-};
+var voiture = new Object;
+voiture.masse = 800;
+voiture.vitesse = 200;
+voiture.marque = "Renault";
+voiture.modèle = "Twingo";
 
-objet1.afficherCouleur()
-// document.write("La couleur de cet objet est " + objet1.couleur);
+var energieCynétique = (voiture.masse/2 * voiture.vitesse**2);
 
-objet1.couleur = "vert";
+alert (energieCynétique) ;
